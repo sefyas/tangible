@@ -115,9 +115,9 @@
   </node>
 
   <!-- Release Generation -->
-  <node pkg="tangible_programming" type="release_generator_node" name="release_generator_node">
+  <!--<node pkg="tangible_programming" type="release_generator_node" name="release_generator_node">
     <param name="release_service_name" type="string" value="$(arg release_service_name)" />
-  </node>
+  </node>-->
 
   <!-- Arm Motion -->
   <!-- <node pkg="tangible_programming" type="arm_motion_node" name="arm_motion_node"> 
